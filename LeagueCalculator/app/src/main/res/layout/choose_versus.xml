@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                tools:text="Team 1"
+                android:textAllCaps="true"
+                android:textSize="25sp"
+                android:text="Team 1" />
+
+            <RelativeLayout
+            android:id="@+id/championBlock1"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="240dp"
+            android:background="?attr/colorButtonNormal"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/championName1"
+                android:layout_width="195dp"
+                android:lines="1"
+                android:gravity="center_vertical"
+                android:text="Champion Name"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:layout_height="25dp"
+                android:layout_below="@+id/summonersName1"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"/>
+
+            <TextView
+                android:id="@+id/summonersName1"
+                android:layout_width="195dp"
+                android:lines="1"
+                android:gravity="center_vertical"
+                android:text="Summoner Name"
+                android:textAlignment="center"
+                android:layout_height="25dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:id="@+id/championImage1"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/darius"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/championBlock2"
+                android:layout_height="50dp"
+                android:layout_marginTop="100dp"
+                android:layout_width="240dp"
+                android:background="?attr/colorButtonNormal"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:id="@+id/championName2"
+                    android:layout_width="195dp"
+                    android:lines="1"
+                    android:gravity="center_vertical"
+                    android:text="Champion Name"
+                    android:textStyle="normal|bold"
+                    android:textAlignment="center"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/summonersName2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"/>
+
+                <TextView
+                    android:id="@+id/summonersName2"
+                    android:layout_width="195dp"
+                    android:lines="1"
+                    android:gravity="center_vertical"
+                    android:text="Summoner Name"
+                    android:textAlignment="center"
+                    android:layout_height="25dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageView
+                    android:id="@+id/championImage2"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/darius"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/championBlock3"
+                android:layout_height="50dp"
+                android:layout_marginTop="160dp"
+                android:layout_width="240dp"
+                android:background="?attr/colorButtonNormal"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:id="@+id/championName3"
+                    android:layout_width="195dp"
+                    android:lines="1"
+                    android:gravity="center_vertical"
+                    android:text="Champion Name"
+                    android:textStyle="normal|bold"
+                    android:textAlignment="center"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/summonersName3"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"/>
+
+                <TextView
+                    android:id="@+id/summonersName3"
+                    android:layout_width="195dp"
+                    android:lines="1"
+                    android:gravity="center_vertical"
+                    android:text="Summoner Name"
+                    android:textAlignment="center"
+                    android:layout_height="25dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageView
+                    android:id="@+id/championImage3"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/darius"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/championBlock4"
+                android:layout_height="50dp"
+                android:layout_marginTop="220dp"
+                android:layout_width="240dp"
+                android:background="?attr/colorButtonNormal"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:id="@+id/championName4"
+                    android:layout_width="195dp"
+                    android:lines="1"
+                    android:gravity="center_vertical"
+                    android:text="Champion Name"
+                    android:textStyle="normal|bold"
+                    android:textAlignment="center"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/summonersName4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"/>
+
+                <TextView
+                    android:id="@+id/summonersName4"
+                    android:layout_width="195dp"
+                    android:lines="1"
+                    android:gravity="center_vertical"
+                    android:text="Summoner Name"
+                    android:textAlignment="center"
+                    android:layout_height="25dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageView
+                    android:id="@+id/championImage4"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/darius"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/championBlock5"
+                android:layout_height="50dp"
+                android:layout_marginTop="280dp"
+                android:layout_width="240dp"
+                android:background="?attr/colorButtonNormal"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:id="@+id/championName5"
+                    android:layout_width="195dp"
+                    android:lines="1"
+                    android:gravity="center_vertical"
+                    android:text="Champion Name"
+                    android:textStyle="normal|bold"
+                    android:textAlignment="center"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/summonersName5"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"/>
+
+                <TextView
+                    android:id="@+id/summonersName5"
+                    android:layout_width="195dp"
+                    android:lines="1"
+                    android:gravity="center_vertical"
+                    android:text="Summoner Name"
+                    android:textAlignment="center"
+                    android:layout_height="25dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageView
+                    android:id="@+id/championImage5"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/darius"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="345dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                tools:text="Team 2"
+                android:textAllCaps="true"
+                android:textSize="25sp"
+                android:text="Team 2" />
+
+            <RelativeLayout
+                android:id="@+id/championBlock6"
+                android:layout_height="50dp"
+                android:layout_marginTop="380dp"
+                android:layout_width="240dp"
+                android:background="?attr/colorButtonNormal"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:id="@+id/championName6"
+                    android:layout_width="195dp"
+                    android:lines="1"
+                    android:gravity="center_vertical"
+                    android:text="Champion Name"
+                    android:textStyle="normal|bold"
+                    android:textAlignment="center"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/summonersName1"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"/>
+
+                <TextView
+                    android:id="@+id/summonersName6"
+                    android:layout_width="195dp"
+                    android:lines="1"
+                    android:gravity="center_vertical"
+                    android:text="Summoner Name"
+                    android:textAlignment="center"
+                    android:layout_height="25dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageView
+                    android:id="@+id/championImage6"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/darius"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/championBlock7"
+                android:layout_height="50dp"
+                android:layout_marginTop="440dp"
+                android:layout_width="240dp"
+                android:background="?attr/colorButtonNormal"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:id="@+id/championName7"
+                    android:layout_width="195dp"
+                    android:lines="1"
+                    android:gravity="center_vertical"
+                    android:text="Champion Name"
+                    android:textStyle="normal|bold"
+                    android:textAlignment="center"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/summonersName7"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"/>
+
+                <TextView
+                    android:id="@+id/summonersName7"
+                    android:layout_width="195dp"
+                    android:lines="1"
+                    android:gravity="center_vertical"
+                    android:text="Summoner Name"
+                    android:textAlignment="center"
+                    android:layout_height="25dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageView
+                    android:id="@+id/championImage7"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/darius"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/championBlock8"
+                android:layout_height="50dp"
+                android:layout_marginTop="500dp"
+                android:layout_width="240dp"
+                android:background="?attr/colorButtonNormal"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:id="@+id/championName8"
+                    android:layout_width="195dp"
+                    android:lines="1"
+                    android:gravity="center_vertical"
+                    android:text="Champion Name"
+                    android:textStyle="normal|bold"
+                    android:textAlignment="center"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/summonersName8"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"/>
+
+                <TextView
+                    android:id="@+id/summonersName8"
+                    android:layout_width="195dp"
+                    android:lines="1"
+                    android:gravity="center_vertical"
+                    android:text="Summoner Name"
+                    android:textAlignment="center"
+                    android:layout_height="25dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageView
+                    android:id="@+id/championImage8"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/darius"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/championBlock9"
+                android:layout_height="50dp"
+                android:layout_marginTop="560dp"
+                android:layout_width="240dp"
+                android:background="?attr/colorButtonNormal"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:id="@+id/championName9"
+                    android:layout_width="195dp"
+                    android:lines="1"
+                    android:gravity="center_vertical"
+                    android:text="Champion Name"
+                    android:textStyle="normal|bold"
+                    android:textAlignment="center"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/summonersName9"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"/>
+
+                <TextView
+                    android:id="@+id/summonersName9"
+                    android:layout_width="195dp"
+                    android:lines="1"
+                    android:gravity="center_vertical"
+                    android:text="Summoner Name"
+                    android:textAlignment="center"
+                    android:layout_height="25dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageView
+                    android:id="@+id/championImage9"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/darius"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/championBlock10"
+                android:layout_height="50dp"
+                android:layout_marginTop="620dp"
+                android:layout_width="240dp"
+                android:background="?attr/colorButtonNormal"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:id="@+id/championName10"
+                    android:layout_width="195dp"
+                    android:lines="1"
+                    android:gravity="center_vertical"
+                    android:text="Champion Name"
+                    android:textStyle="normal|bold"
+                    android:textAlignment="center"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/summonersName10"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"/>
+
+                <TextView
+                    android:id="@+id/summonersName10"
+                    android:layout_width="195dp"
+                    android:lines="1"
+                    android:gravity="center_vertical"
+                    android:text="Summoner Name"
+                    android:textAlignment="center"
+                    android:layout_height="25dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageView
+                    android:id="@+id/championImage10"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/darius"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main"
+    tools:context="com.example.jimmy.leaguecalculator.MainActivity"
+    android:weightSum="1"
+    android:baselineAligned="false">
+
+    <TabHost
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dp"
+        android:id="@+id/mainTabHost"
+        android:layout_weight="0.78"
+        tools:ignore="InefficientWeight">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:fillViewport="true"
+                android:scrollbars="none"
+                android:layout_height="50dp">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp" />
+
+            </HorizontalScrollView>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/tabSummoner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:id="@+id/summonerNameText"
+                        android:hint="@string/enter_summoner_name"
+                        android:textAlignment="center"
+                        android:fontFamily="sans-serif"
+                        android:inputType="text"
+                        android:textSize="18sp"
+                        android:layout_marginTop="14dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_toLeftOf="@+id/regionSpinner"
+                        android:layout_toStartOf="@+id/regionSpinner"
+                        android:background="@android:color/transparent"/>
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:id="@+id/regionSpinner"
+                        android:scrollbarSize="14dp"
+                        android:textSize="14sp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/summonerNameText"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignBottom="@+id/summonerNameText" />
+
+                    <Button
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/matchSearchButton"
+                        android:textColor="#000000"
+                        android:text="@string/find_match"
+                        android:textSize="14sp"
+                        android:layout_marginTop="19dp"
+                        android:layout_below="@+id/summonerNameText"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/tabChampions"
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp"
+                    android:orientation="vertical">
+
+                    <include
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        layout="@layout/choose_versus" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tabMasteries"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/masteries"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tabRunes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <include
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        layout="@layout/runes" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>

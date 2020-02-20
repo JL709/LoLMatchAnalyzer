@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/wanderer"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageWanderer"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageWanderer"
+        android:layout_alignLeft="@+id/imageWanderer"
+        android:layout_alignStart="@+id/imageWanderer"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewWanderer"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/runicaffinity"
+        android:layout_marginTop="80dp"
+        android:id="@+id/imageRunicAffinity"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageRunicAffinity"
+        android:layout_alignLeft="@+id/imageRunicAffinity"
+        android:layout_alignStart="@+id/imageRunicAffinity"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewRunicAffinity"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/merciless"
+        android:layout_marginTop="150dp"
+        android:id="@+id/imageMerciless"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageMerciless"
+        android:layout_alignLeft="@+id/imageMerciless"
+        android:layout_alignStart="@+id/imageMerciless"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewMerciless"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/greenfathersgift"
+        android:layout_marginTop="220dp"
+        android:id="@+id/imageGreenfathersGift"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageGreenfathersGift"
+        android:layout_alignLeft="@+id/imageGreenfathersGift"
+        android:layout_alignStart="@+id/imageGreenfathersGift"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewGreenfathersGift"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/precision"
+        android:layout_marginTop="290dp"
+        android:id="@+id/imagePrecision"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imagePrecision"
+        android:layout_alignLeft="@+id/imagePrecision"
+        android:layout_alignStart="@+id/imagePrecision"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewPrecision"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/stormraiderssurge"
+        android:layout_marginTop="360dp"
+        android:id="@+id/imageStormraidersSurge"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageStormraidersSurge"
+        android:layout_alignLeft="@+id/imageStormraidersSurge"
+        android:layout_alignStart="@+id/imageStormraidersSurge"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewStormraidersSurge"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/savagery"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageSavagery"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageSavagery"
+        android:layout_alignLeft="@+id/imageSavagery"
+        android:layout_alignStart="@+id/imageSavagery"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewSavagery"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/assassin"
+        android:layout_marginTop="80dp"
+        android:id="@+id/imageAssassin"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageAssassin"
+        android:layout_alignLeft="@+id/imageAssassin"
+        android:layout_alignStart="@+id/imageAssassin"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewAssassin"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/meditation"
+        android:layout_marginTop="150dp"
+        android:id="@+id/imageMeditation"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageMeditation"
+        android:layout_alignLeft="@+id/imageMeditation"
+        android:layout_alignStart="@+id/imageMeditation"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewMeditation"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/dangerousgame"
+        android:layout_marginTop="220dp"
+        android:id="@+id/imageDangerousGame"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageDangerousGame"
+        android:layout_alignLeft="@+id/imageDangerousGame"
+        android:layout_alignStart="@+id/imageDangerousGame"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewDangerousGame"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/intelligence"
+        android:layout_marginTop="290dp"
+        android:id="@+id/imageIntelligence"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageIntelligence"
+        android:layout_alignLeft="@+id/imageIntelligence"
+        android:layout_alignStart="@+id/imageIntelligence"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewIntelligence"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/windspeakersblessing"
+        android:layout_marginTop="360dp"
+        android:id="@+id/imageWindspeakersBlessing"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageWindspeakersBlessing"
+        android:layout_alignLeft="@+id/imageWindspeakersBlessing"
+        android:layout_alignStart="@+id/imageWindspeakersBlessing"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewWindspeakersBlessing"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/secretstash"
+        android:id="@+id/imageSecretStash"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"/>
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageSecretStash"
+        android:layout_alignLeft="@+id/imageSecretStash"
+        android:layout_alignStart="@+id/imageSecretStash"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewSecretStash"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/bandit"
+        android:id="@+id/imageBandit"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="220dp" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageBandit"
+        android:layout_alignLeft="@+id/imageBandit"
+        android:layout_alignStart="@+id/imageBandit"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewBandit"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/thunderlordsdecree"
+        android:id="@+id/imageThunderlordsDecree"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="360dp"/>
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageThunderlordsDecree"
+        android:layout_alignLeft="@+id/imageThunderlordsDecree"
+        android:layout_alignStart="@+id/imageThunderlordsDecree"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewThunderlordsDecree"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+</RelativeLayout>

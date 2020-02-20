@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">League of Legends</string>
+    <string name="action_settings">Settings</string>
+    <string name="textview">Rank</string>
+    <string name="enter_summoner_name">Summoner Name</string>
+    <string name="find_match">Find Match</string>
+    <string-array name ="regions">
+        <item>NA</item>
+        <item>EUW</item>
+        <item>EUNE</item>
+        <item>KR</item>
+        <item>JP</item>
+        <item>BR</item>
+        <item>LAN</item>
+        <item>LAS</item>
+        <item>RU</item>
+        <item>OCE</item>
+        <item>TR</item>
+    </string-array>
+</resources>

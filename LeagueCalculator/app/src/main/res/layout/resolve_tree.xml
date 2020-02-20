@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    </android.support.v4.view.ViewPager>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/recovery"
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageRecovery"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageRecovery"
+            android:layout_alignLeft="@+id/imageRecovery"
+            android:layout_alignStart="@+id/imageRecovery"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:id="@+id/textViewRecovery"
+            android:textColor="@android:color/white"
+            android:background="@drawable/back"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/explorer"
+            android:layout_marginTop="80dp"
+            android:id="@+id/imageExplorer"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageExplorer"
+            android:layout_alignLeft="@+id/imageExplorer"
+            android:layout_alignStart="@+id/imageExplorer"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:id="@+id/textViewExplorer"
+            android:textColor="@android:color/white"
+            android:background="@drawable/back"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/runicarmor"
+            android:layout_marginTop="150dp"
+            android:id="@+id/imageRunicArmor"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageRunicArmor"
+            android:layout_alignLeft="@+id/imageRunicArmor"
+            android:layout_alignStart="@+id/imageRunicArmor"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:id="@+id/textViewRunicArmor"
+            android:textColor="@android:color/white"
+            android:background="@drawable/back"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/insight"
+            android:layout_marginTop="220dp"
+            android:id="@+id/imageInsight"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageInsight"
+            android:layout_alignLeft="@+id/imageInsight"
+            android:layout_alignStart="@+id/imageInsight"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:id="@+id/textViewInsight"
+            android:textColor="@android:color/white"
+            android:background="@drawable/back"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/swiftness"
+            android:layout_marginTop="290dp"
+            android:id="@+id/imageSwiftness"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageSwiftness"
+            android:layout_alignLeft="@+id/imageSwiftness"
+            android:layout_alignStart="@+id/imageSwiftness"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:id="@+id/textViewSwiftness"
+            android:textColor="@android:color/white"
+            android:background="@drawable/back"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/graspoftheundying"
+            android:layout_marginTop="360dp"
+            android:id="@+id/imageGraspoftheUndying"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageGraspoftheUndying"
+            android:layout_alignLeft="@+id/imageGraspoftheUndying"
+            android:layout_alignStart="@+id/imageGraspoftheUndying"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:id="@+id/textViewGraspoftheUndying"
+            android:textColor="@android:color/white"
+            android:background="@drawable/back"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/unyielding"
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageUnyielding"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageUnyielding"
+            android:layout_alignLeft="@+id/imageUnyielding"
+            android:layout_alignStart="@+id/imageUnyielding"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:id="@+id/textViewUnyielding"
+            android:textColor="@android:color/white"
+            android:background="@drawable/back"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/siegemaster"
+            android:layout_marginTop="80dp"
+            android:id="@+id/imageSiegemaster"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageSiegemaster"
+            android:layout_alignLeft="@+id/imageSiegemaster"
+            android:layout_alignStart="@+id/imageSiegemaster"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:id="@+id/textViewSiegemaster"
+            android:textColor="@android:color/white"
+            android:background="@drawable/back"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/veteransscars"
+            android:layout_marginTop="150dp"
+            android:id="@+id/imageVeteransScars"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageVeteransScars"
+            android:layout_alignLeft="@+id/imageVeteransScars"
+            android:layout_alignStart="@+id/imageVeteransScars"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:id="@+id/textViewVeteransScars"
+            android:textColor="@android:color/white"
+            android:background="@drawable/back"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/fearless"
+            android:layout_marginTop="220dp"
+            android:id="@+id/imageFearless"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageFearless"
+            android:layout_alignLeft="@+id/imageFearless"
+            android:layout_alignStart="@+id/imageFearless"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:id="@+id/textViewFearless"
+            android:textColor="@android:color/white"
+            android:background="@drawable/back"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/legendaryguardian"
+            android:layout_marginTop="290dp"
+            android:id="@+id/imageLegendaryGuardian"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageLegendaryGuardian"
+            android:layout_alignLeft="@+id/imageLegendaryGuardian"
+            android:layout_alignStart="@+id/imageLegendaryGuardian"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:id="@+id/textViewLegendaryGuardian"
+            android:textColor="@android:color/white"
+            android:background="@drawable/back"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/bondofstone"
+            android:layout_marginTop="360dp"
+            android:id="@+id/imageBondofStone"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageBondofStone"
+            android:layout_alignLeft="@+id/imageBondofStone"
+            android:layout_alignStart="@+id/imageBondofStone"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:id="@+id/textViewBondofStone"
+            android:textColor="@android:color/white"
+            android:background="@drawable/back"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/toughskin"
+            android:id="@+id/imageToughSkin"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="80dp"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageToughSkin"
+            android:layout_alignLeft="@+id/imageToughSkin"
+            android:layout_alignStart="@+id/imageToughSkin"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:id="@+id/textViewToughSkin"
+            android:textColor="@android:color/white"
+            android:background="@drawable/back"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/perseverance"
+            android:id="@+id/imagePerseverance"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="220dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imagePerseverance"
+            android:layout_alignLeft="@+id/imagePerseverance"
+            android:layout_alignStart="@+id/imagePerseverance"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:id="@+id/textViewPerseverance"
+            android:textColor="@android:color/white"
+            android:background="@drawable/back"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/courageofthecolossus"
+            android:id="@+id/imageCourageoftheColossus"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="360dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageCourageoftheColossus"
+            android:layout_alignLeft="@+id/imageCourageoftheColossus"
+            android:layout_alignStart="@+id/imageCourageoftheColossus"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:id="@+id/textViewCourageoftheColossus"
+            android:textColor="@android:color/white"
+            android:background="@drawable/back"
+            android:textAlignment="center" />
+    </RelativeLayout>
+
+</RelativeLayout>

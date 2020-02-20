@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/fury"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageFury"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/freshblood"
+        android:layout_marginTop="80dp"
+        android:id="@+id/imageFreshBlood"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/vampirism"
+        android:layout_marginTop="150dp"
+        android:id="@+id/imageVampirism"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/bountyhunter"
+        android:layout_marginTop="220dp"
+        android:id="@+id/imageBountyHunter"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/batteringblows"
+        android:layout_marginTop="290dp"
+        android:id="@+id/imageBatteringBlows"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/warlordsbloodlust"
+        android:layout_marginTop="360dp"
+        android:id="@+id/imageWarlordsBloodlust"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/sorcery"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageSorcery"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/exposeweakness"
+        android:layout_marginTop="80dp"
+        android:id="@+id/imageExposeWeakness"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/naturaltalent"
+        android:layout_marginTop="150dp"
+        android:id="@+id/imageNaturalTalent"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/battletrance"
+        android:layout_marginTop="220dp"
+        android:id="@+id/imageBattleTrance"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/piercingthoughts"
+        android:layout_marginTop="290dp"
+        android:id="@+id/imagePiercingThoughts"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/feast"
+        android:id="@+id/imageFeast"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"/>
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/doubleedgedsword"
+        android:id="@+id/imageDoubleEdgedSword"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="220dp" />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/fervorofbattle"
+        android:id="@+id/imageFervorofBattle"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="360dp"/>
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/deathfiretouch"
+        android:id="@+id/imageDeathfireTouch"
+        android:layout_marginTop="360dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageFury"
+        android:layout_alignLeft="@+id/imageFury"
+        android:layout_alignStart="@+id/imageFury"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewFury"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageSorcery"
+        android:layout_alignLeft="@+id/imageSorcery"
+        android:layout_alignStart="@+id/imageSorcery"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewSorcery"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageFreshBlood"
+        android:layout_alignLeft="@+id/imageFreshBlood"
+        android:layout_alignStart="@+id/imageFreshBlood"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewFreshBlood"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageFeast"
+        android:layout_alignLeft="@+id/imageFeast"
+        android:layout_alignStart="@+id/imageFeast"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewFeast"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageExposeWeakness"
+        android:layout_alignLeft="@+id/imageExposeWeakness"
+        android:layout_alignStart="@+id/imageExposeWeakness"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewExposeWeakness"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageVampirism"
+        android:layout_alignLeft="@+id/imageVampirism"
+        android:layout_alignStart="@+id/imageVampirism"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewVampirism"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageNaturalTalent"
+        android:layout_alignLeft="@+id/imageNaturalTalent"
+        android:layout_alignStart="@+id/imageNaturalTalent"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewNaturalTalent"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageBountyHunter"
+        android:layout_alignLeft="@+id/imageBountyHunter"
+        android:layout_alignStart="@+id/imageBountyHunter"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewBountyHunter"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageDoubleEdgedSword"
+        android:layout_alignLeft="@+id/imageDoubleEdgedSword"
+        android:layout_alignStart="@+id/imageDoubleEdgedSword"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewDoubleEdgedSword"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageBattleTrance"
+        android:layout_alignLeft="@+id/imageBattleTrance"
+        android:layout_alignStart="@+id/imageBattleTrance"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewBattleTrance"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageBatteringBlows"
+        android:layout_alignLeft="@+id/imageBatteringBlows"
+        android:layout_alignStart="@+id/imageBatteringBlows"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewBatteringBlows"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageWarlordsBloodlust"
+        android:layout_alignLeft="@+id/imageWarlordsBloodlust"
+        android:layout_alignStart="@+id/imageWarlordsBloodlust"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewWarlordsBloodlust"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageDeathfireTouch"
+        android:layout_alignLeft="@+id/imageDeathfireTouch"
+        android:layout_alignStart="@+id/imageDeathfireTouch"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewDeathfireTouch"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageFervorofBattle"
+        android:layout_alignLeft="@+id/imageFervorofBattle"
+        android:layout_alignStart="@+id/imageFervorofBattle"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewFervorofBattle"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imagePiercingThoughts"
+        android:layout_alignLeft="@+id/imagePiercingThoughts"
+        android:layout_alignStart="@+id/imagePiercingThoughts"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:id="@+id/textViewPiercingThoughts"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:textAlignment="center" />
+
+</RelativeLayout>
